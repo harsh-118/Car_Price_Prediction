@@ -1,7 +1,16 @@
 # Libraries Used:
 * **Pandas (import pandas as pd):** Used for data manipulation and analysis, especially with DataFrame structures.
+```
+pip install pandas
+```
 *  **NumPy (import numpy as np):** Essential for numerical operations and array manipulations.
+```
+pip install numpy
+```
 * **Matplotlib (from matplotlib import pyplot as plt):** Used for creating visualizations like plots and charts.
+```
+pip install matplotlib
+```
 * **Scikit-learn (from sklearn...):** Comprehensive library for machine learning tasks including preprocessing, modeling, and evaluation.
     * **LabelEncoder:** Used for encoding categorical variables into numeric format.
     * **ColumnTransformer:** Helps with column-specific transformations (e.g., one-hot encoding).
@@ -9,9 +18,28 @@
     * **SelectKBest, f_classif:** Feature selection based on statistical tests.
     * **NearestNeighbors, DBSCAN:** Utilized for outlier detection and clustering tasks.
     * **RandomForestRegressor:** A machine learning model for regression tasks.
+```
+pip install scikit-learn
+```
 * **Seaborn (import seaborn):** Enhances the visual aesthetics of Matplotlib plots and provides additional plot types.
+```
+pip install seaborn
+```
 
-
+# Usage
+**1.Clone the repository:**
+```
+git clone https://github.com/your-username/car-price-prediction.git
+```
+**2.Install the required dependencies:**
+```
+pip install -r requirements.txt
+```
+**3.Run the script:**
+```
+python car_price_prediction.py
+```
+Follow the prompts to input the car details and get the predicted price.
 
 # Workflow Explanation:
 ### 1. Data Loading and Cleaning:
