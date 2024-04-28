@@ -1,3 +1,6 @@
+# Car Price Prediction System
+This project is designed to predict the price of a car based on various features using machine learning techniques. By analyzing factors such as the year of manufacture, kilometers driven, fuel type, seller type, transmission, owner details, and more, the system aims to provide accurate price estimates for different types of cars.
+
 # Libraries Used:
 * **Pandas (import pandas as pd):** Used for data manipulation and analysis, especially with DataFrame structures.
 ```
